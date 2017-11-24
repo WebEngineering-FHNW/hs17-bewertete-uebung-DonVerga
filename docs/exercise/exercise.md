@@ -2,9 +2,23 @@
 
 ## Commit Proposal
 
-Matriculation Number: <to be filled by student>
+Matriculation Number: 13-269-121
 
 Project idea short description: 
+
+#Daily Challenge Book.
+Try somthing new in max 15 mins
+
+Pt. 1
+1. Enter Titel. 
+2. Enter description of the challenge.
+3. Enter Time needed for challenge.
+   Dropdown with 3 / 5 / 10 / 15 mins needed
+
+Pt. 2 
+1. Button for get Daily challenge.
+2. Display challenge.
+3. Button for challenge completed.
 
 
 ## Project confirmation
