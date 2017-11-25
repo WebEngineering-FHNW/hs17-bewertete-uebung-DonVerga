@@ -23,7 +23,9 @@ Pt. 2
 
 ## Project confirmation
 
-< to be filled by lecturer>
+Confirmed.
+
+Awesome. I love the idea! Can't wait to see your solution.
 
 
 ## Project delivery <to be filled by student>
