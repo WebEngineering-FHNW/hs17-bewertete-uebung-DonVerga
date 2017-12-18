@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <title>
-        <g:layoutTitle default="Test"/>
+        <g:layoutTitle default="main"/>
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
@@ -14,7 +14,7 @@
 </head>
 <body>
 
-    <div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="navbar navbar-default-challenge navbar-static-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -23,7 +23,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/#">
+                <a class="navbar-brand-challenge" href="/#">
                     <i class="fa grails-icon">
                         <asset:image src="challange.svg"/>
                     </i> Challenge Book
@@ -39,7 +39,7 @@
 
     <g:layoutBody/>
 
-    <div class="footer navbar-fixed-bottom" role="contentinfo"></div>
+    <div class="footer-challange footer navbar-fixed-bottom" role="contentinfo"></div>
 
     <div id="spinner" class="spinner" style="display:none;">
         <g:message code="spinner.alt" default="Loading&hellip;"/>

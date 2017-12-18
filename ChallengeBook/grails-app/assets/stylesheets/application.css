@@ -13,3 +13,46 @@
 *= require mobile
 *= require_self
 */
+.navbar-default-challenge, .navbar-static-top {
+    background-color: #154486;
+    border: 0px;
+}
+ .navbar-link {
+    color: #ffffff;
+}
+ .footer-challange{
+     background-color:#154486;
+ }
+
+a.navbar-brand-challenge {
+    color: white ;
+    font-size: 20px ;
+}
+.navbar-default-challenge a {
+    color: #ffffff ;
+    font-size: 20px ;
+    text-decoration: none;
+
+}
+.navbar {
+    margin-bottom: 0px;
+    padding-right: 110px;
+}
+.navbar .container {
+    margin: 5px;
+}
+.grails-logo-container {
+    background: #76b2b9 no-repeat 50% 30%;
+    margin-right: 650px;
+    margin-left: 650px;
+    color: black;
+    height:600px;
+    text-align:center;
+}
+.navbar-nav>li.active>a {
+    color: #ffffff;
+}
+.navbar-nav>li>a:hover {
+    background-color: #8fa8db !important;
+    color: white !important;
+}
