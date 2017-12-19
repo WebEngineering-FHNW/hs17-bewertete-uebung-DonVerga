@@ -1,0 +1,95 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS file within this directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+*= require bootstrap
+*= require grails
+*= require main
+*= require mobile
+*= require_self
+*/
+.navbar-default-challenge, .navbar-static-top {
+    background-color: #154486;
+    border: 0px;
+}
+.navbar-link {
+    color: #ffffff;
+}
+.footer-challange{
+    background-color:#154486;
+}
+
+a.navbar-brand-challenge {
+    color: white ;
+    font-size: 20px ;
+}
+.navbar-default-challenge a {
+    color: #ffffff ;
+    font-size: 20px ;
+    text-decoration: none;
+
+}
+.navbar {
+    margin-bottom: 0px;
+    padding-right: 110px;
+}
+.navbar .container {
+    margin: 5px;
+}
+.grails-logo-container {
+    background: #76b2b9 no-repeat 50% 30%;
+    margin-right: 650px;
+    margin-left: 650px;
+    color: black;
+    height:500px;
+    text-align:center;
+}
+.navbar-nav>li.active>a {
+    color: #ffffff;
+}
+.navbar-nav>li>a:hover {
+    background-color: #8fa8db;
+    color: white ;
+}
+.grails-icon img {
+    width: 40px;
+}
+.challenge-logo{
+    margin-top: 60px;
+    width: 250px;
+}
+#fromBlock{
+    margin-top: 0px;
+}
+
+#titlefield{
+background-color: transparent;
+    border-color: #122b40;
+}
+#descriptionArea{
+    resize: none;
+    width: 200px;
+    height: 100px;
+    background-color: transparent;
+    border-color: #122b40;
+
+}
+#submitButton{
+    background-color:#154486;
+    border: hidden;
+    color: white;
+}
+#challengeTime{
+    background-color:transparent;
+    border: hidden;
+    color: #154486;
+}
+
+.flagbackground{
+    background-image: url("../assets/images/flag.png");
+}

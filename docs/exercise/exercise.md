@@ -38,10 +38,15 @@ Project description:      (if other than `/index.html`)
 
 External contributions:
 
-Other comments: 
+Other comments: This task was a challenge for me. Sadly I did understand to work with grails today. 
+I was struggeling a lot while trying to make this basic task on the framework. I had to start over
+2 times because it started to give me infinite errors and i did not even know why...
+I am a bit disappointed because I could not implement everything I wanted to. 
+
 
 I'm particular proud of:
-
+I learned a lot about working with grails. 
+Specially proud that it does what I wanted to do.
 
 ## Project grading 
 
