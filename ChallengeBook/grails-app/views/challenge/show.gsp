@@ -6,6 +6,15 @@
         <title><g:message code="default.show.label" args="[entityName]" /></title>
     </head>
     <body>
+    <g:form controller="challenge" action="getRandomChallenge">
+        <label>Title: </label>
+        <g:textField name="title"/><br/>
+        <label>description: </label>
+        <g:textField name="description"/><br/>
+        <label>Time: </label>
+        <g:textField name="ChallengeTime"/><br/>
+    </g:form>
+    <!--
         <a href="#show-challenge" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
         <div class="nav" role="navigation">
             <ul>
@@ -27,5 +36,6 @@
                 </fieldset>
             </g:form>
         </div>
+        -->
     </body>
 </html>

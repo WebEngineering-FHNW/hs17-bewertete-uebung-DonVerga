@@ -6,27 +6,25 @@ import grails.transaction.Transactional
 @Transactional(readOnly = true)
 class ChallengeController {
 
-
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
-    static scaffold = Challenge
-
-
     def index(Integer max) {
-            params.max = Math.min(max ?: 10, 100)
-            def listOfChallenge = Challenge.list(params)
-            for(Challenge challenge : listOfChallenge) {
-                challenge.message = message(code: "beispiel")
-            }
-            respond listOfChallenge, model:[challengeCount: Challenge.count()]
-        }
-
-
-
-
+        params.max = Math.min(max ?: 10, 100)
+        respond Challenge.list(params), model:[challengeCount: Challenge.count()]
+    }
 
     def show(Challenge challenge) {
         respond challenge
+    }
+    def getRandomChallenge() {
+        int challengeCount = Challenge.count()
+        Random rand = new Random(challengeCount);
+        int randomIndex = rand.nextInt();
+
+        def challangeList = Challenge.getAll()
+        def challenge = challangeList[randomIndex]
+        respond challenge
+        render "Success!"
     }
 
     def create() {
@@ -116,8 +114,6 @@ class ChallengeController {
             '*'{ render status: NOT_FOUND }
         }
     }
-  def getRandomChallenge(){
-      def c = Challenge.get(1)
-      assert 1 == c.id
-  }
+
+
 }

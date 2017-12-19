@@ -25,7 +25,7 @@
                 </button>
                 <a class="navbar-brand-challenge" href="/#">
                     <i class="fa grails-icon">
-                        <asset:image src="challange.svg"/>
+                        <asset:image src="challange-white.svg"/>
                     </i> Challenge Book
                 </a>
             </div>
