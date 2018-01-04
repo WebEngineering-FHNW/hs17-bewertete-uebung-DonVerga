@@ -50,4 +50,22 @@ Specially proud that it does what I wanted to do.
 
 ## Project grading 
 
-< to be filled by lecturer>
+It appears your project
+a) does not follow the directory layout that we use throughout the module
+b) has issues with the file and directory permissions.
+That might be the cause for your troubles.
+
+Description in index.html: not provided.
+The application seems to work.
+
+Functionality:
+Limited navigation and data entry. Domain with two entities, challenge creation,
+random selection from the list of challenges (nice use of shuffle()).
+Violation of validation constraints are silently swallowed (no error message).
+
+Engineering:
+Commit log does not seem to catch most of the work.
+No tests. HTML has minor issues. No comments. Naming is ok.
+
+Total grade: 4.6 
+
